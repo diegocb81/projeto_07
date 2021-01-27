@@ -25,7 +25,7 @@ nav .brand-logo {
 }
 
 .custom-title h2 {
-  font-size: 30px;
+  font-size: 26px;
   color: #777;
   z-index: 2;
   position: relative;
@@ -41,6 +41,28 @@ nav .brand-logo {
   height: 3px;
   top: 40px;
   z-index: 1;
-  background: #777;
+  background: #999;
   left: 0;
+}
+
+.card card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.offset-equipe {
+    position: relative;
+    top: 78px;
+}
+
+@media screen and (max-width: 768px){
+    .offset-equipe{
+        top: 0;
+    }
 }
