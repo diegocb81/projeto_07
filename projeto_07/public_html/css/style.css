@@ -45,7 +45,7 @@ nav .brand-logo {
   left: 0;
 }
 
-.card card-image img {
+.card-image img {
     display: block;
     border-radius: 2px 2px 0 0;
     position: relative;
@@ -54,6 +54,7 @@ nav .brand-logo {
     top: 0;
     bottom: 0;
     width: 100%;
+    min-height: 200px;
 }
 
 .offset-equipe {
